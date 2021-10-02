@@ -1,0 +1,207 @@
+body {
+    position: relative;
+    background-color: black;
+  }  
+.bg-img {
+    /* The image used */
+    background-image: url("./assets/code.gif");
+    min-height: 250px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: repeat;
+    background-size: fill;
+    /* Needed to position the navbar */
+    position: relative;
+  }
+  /* Position the navbar container inside the image */
+  .container {
+    position: absolute;
+    margin: 30px;
+    width: auto;
+  }
+  /* The navbar */
+  .topnav {
+    overflow: hidden;
+    background-color:green;
+    border-style: ridge;
+    border-width: 5px;
+  }
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color:black;
+    color: green;
+  }
+  #scroll-p{
+   display: flex;
+   height: 200px;
+   width: 400px;
+   border-style: dotted;
+   border-color: darkgreen;
+  }
+  #links{
+    border-style: solid;
+    border-color: darkslategray;
+  }
+  .badges{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+  }
+  #pblock{
+    display: absolute;
+    flex-direction: column;
+    
+  }
+
+  #projects{
+  display: flex;
+   color: green;
+   border-style: double;
+   box-shadow: 2px 2px 12px;
+   width: 200px;
+  }
+  .codepen.p{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  #codepen{
+    display: flex;
+    flex-direction: column;
+    color:green
+  }
+  #github{
+    display: flex;
+    flex-direction: column;
+    color: green;
+  }
+  .description{
+      display: flex;
+      text-decoration: grey;
+      font-size: medium;
+      color:green;
+      box-shadow: 2px 2px 12px;
+      padding: 0px 55;
+      border-style: ridge;
+      border-width: 10px;
+      align-items: center;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 10px;
+      font-weight: 300;
+  }
+  .buttonL {
+    border-style: ridge;
+    border-color: darkgreen;
+    border-width: 5px;
+    background-color: green;
+    text-decoration: none;
+    color: initial;
+}
+  .buttonL:hover {
+  background-color:black;
+  color: green;
+  width: 20px;
+}
+  .button {
+    border-style: ridge;
+    border-color: darkgreen;
+    background-color: green;
+    text-decoration: none;
+    color: initial;
+}
+  .button:hover {
+  background-color:black;
+  color: green;
+  width: fill;
+}
+  /* footer */
+  #footer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    background-color:green;
+    border-style: ridge;
+    border-width: 5px;
+    width:245px;
+  }
+  #footer a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    width: fill;
+  }
+  #footer a:hover {
+    background-color:black;
+    color: green;
+    width: fill;
+  }
+
+  #contact{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    width: fill;
+    height: 800px;
+  }
+
+  #contacth{
+   display: flex;
+   border-color: darkgreen;
+   color: green;
+   border-style: double;
+   box-shadow: 2px 2px 12px;
+   width: 200px;
+  }
+
+  #clinks{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 200px;
+    border-style: dotted;
+    border-color: darkgreen;
+   }
+
+#cursor{
+  font-size: 30px;
+}
+
+#form{
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+#formdiv
+{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    border-style: dotted;
+    border-color: darkgreen;
+    color: green;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    height: auto
+}
+
+
+
