@@ -5,14 +5,29 @@ let cursor = true;
     if(cursor) {
       document.getElementById("cursor").style.opacity = 0;
       document.getElementById("cursor2").style.opacity = 0;
+      document.getElementById("cursor3").style.opacity = 0;
+      document.getElementById("cursor4").style.opacity = 0;
       cursor = false;
     }else {
       document.getElementById("cursor").style.opacity = 1;
       document.getElementById("cursor2").style.opacity = 1;
+      document.getElementById("cursor3").style.opacity = 1;
+      document.getElementById("cursor4").style.opacity = 1;
       cursor = true;
     }
   }, speed);
   console.log(setInterval);
+
+  function mDown(obj) {
+    obj.style.backgroundColor = "#ffffff";
+    obj.innerHTML = "Submit";
+  }
+  
+  function mUp(obj) {
+    obj.style.backgroundColor="#D94A38";
+    obj.innerHTML="Thank You";
+  }
+
   
 
 
