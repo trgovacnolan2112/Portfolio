@@ -1,7 +1,42 @@
 body {
     position: relative;
     background-color: black;
-  }  
+    margin: 0;
+  } 
+#showcase{
+  background-image: url("./assets/keyboard.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  color: darkgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#showcase a{
+  color: black;
+  text-align: center;
+  font-size: 17px;
+  width: fill;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  background-color:green;
+  border-style: ridge;
+  border-width: 5px;
+  width:325px;
+  margin: 0;
+  position: middle;
+  justify-content: center;
+}
+#showcase h1{
+background-color: black;
+border-style: ridge;
+border-width: 25px;
+}
 .bg-img {
     /* The image used */
     background-image: url("./assets/code.gif");
@@ -201,7 +236,22 @@ body {
     margin-right: auto;
     width: 30em;
     padding: 10px;
-    height: auto
+    height: 210px;
+}
+#formdivone
+{
+    display: block;
+    flex-direction: column;
+    text-align: center;
+    border-style:ridge;
+    border-color: darkgreen;
+    color: green;
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30em;
+    padding: 10px;
+    height: -210px;
 }
 
 
