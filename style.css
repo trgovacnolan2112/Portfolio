@@ -39,6 +39,12 @@ border-width: 25px;
 }
 .bg-img {
     /* The image used */
+    border-top: green;
+    border-left: transparent;
+    border-right: transparent;
+    border-bottom: transparent;
+    border-style: ridge;
+    border-width: 10px;
     background-image: url("./assets/code.gif");
     min-height: 250px;
     /* Center and scale the image nicely */
