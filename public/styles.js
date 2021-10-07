@@ -33,7 +33,7 @@ let cursor = true;
 
 var i = 0;
 var flash=50;
-var txt = "Welcome, You have reached the portfolio of Nolan Trgovac. Skills have ranged from art, code, photography and cooking and the love of media from all cultures. Bellow are all the links to my experience and information of professional experience on HTML, JS, and CSS. Please contact me day or night for further information or questions and thank you for your consideration.";
+var txt = "Welcome, You have reached the portfolio of Nolan Trgovac. Skills have ranged from art, code, photography and cooking and the love of media from all cultures. Bellow are all the links to my experience and information of professional experience on HTML, JS, Bootstrap, and CSS. Please contact me day or night for further information or questions and thank you for your consideration.";
 
 function typeWriter() {
   if (i < txt.length) {

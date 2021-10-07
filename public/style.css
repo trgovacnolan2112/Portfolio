@@ -4,20 +4,38 @@ body {
     margin: 0;
   } 
 
-  #badges {
-    width: 300px;
-    height: 300px;
-    overflow: hidden;
-    margin: 0 auto;
+  .gold {
+    overflow: visible;
 }
    
-#badges img {
-    width: 100%;
+.gold img {
     transition: 0.5s all ease-in-out;
 }
    
-#badges:hover img {
+.gold:hover img {
     transform: scale(1.5);
+}
+.red {
+  overflow: visible;
+}
+ 
+.red img {
+  transition: 0.5s all ease-in-out;
+}
+ 
+.red:hover img {
+  transform: scale(1.5);
+}
+.blue {
+  overflow: visible;
+}
+ 
+.blue img {
+  transition: 0.5s all ease-in-out;
+}
+ 
+.blue:hover img {
+  transform: scale(1.5);
 }
 #showcase{
   background-image: url("./assets/keyboard.jpg");
@@ -34,6 +52,7 @@ body {
   margin: auto;
 }
 #showcase a{
+  text-decoration: none;
   color: black;
   text-align: center;
   font-size: 17px;
