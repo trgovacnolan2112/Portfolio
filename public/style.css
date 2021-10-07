@@ -217,7 +217,7 @@ border-width: 25px;
   #clinks{
     display: flex;
     flex-direction: column;
-    height: 100px;
+    height: 135px;
     width: 200px;
     border-style: dotted;
     border-color: darkgreen;
