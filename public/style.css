@@ -3,6 +3,22 @@ body {
     background-color: black;
     margin: 0;
   } 
+
+  #badges {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+   
+#badges img {
+    width: 100%;
+    transition: 0.5s all ease-in-out;
+}
+   
+#badges:hover img {
+    transform: scale(1.5);
+}
 #showcase{
   background-image: url("./assets/keyboard.jpg");
   background-size: cover;
